@@ -28,7 +28,10 @@ html, body{
 }
 #loisir>div>i{
     font-weight: 900;
-    font-size: 200%;
+    font-size: 300%;
+    padding: 3%;
+    border-radius: 100%;
+    border: 2px solid rgba(64,64,64,0.9);
 }
 #moi>div:first-child>img{
     overflow:hidden;
@@ -98,7 +101,6 @@ html, body{
 }
 .far.fa-dot-circle{
     color: rgb(254,202,7);
-    float: left;
 }
 .fas.fa-circle{
     color: rgb(254,202,7);
@@ -114,23 +116,26 @@ html, body{
 }
 #cv>div:nth-child(2)>ul{
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
 }
 #cv>div:nth-child(2)>ul>li{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     margin-left: 3%;
+}
+.far.fa-dot-circle, .fas.fa-circle{
+    width: 4%
 }
 #cv>div:nth-child(2)>ul>li h2, li h3{
     margin-top: 0;
     margin-bottom: 0;
 }
-#cv>div:nth-child(2)>ul>li>div:first-child{
-    width: 25%;
+.date{
+    width: 30%;
 }
-#cv>div:nth-child(2)>ul>li>div:last-child{
-    width: 75%;
+.lieu{
+    width: 70%;
 }
 #cv>div:nth-child(3)>ul{
     display: flex;
@@ -145,12 +150,6 @@ html, body{
 #cv>div:nth-child(3)>ul>li h2, li h3{
     margin-top: 0;
     margin-bottom: 0;
-}
-#cv>div:nth-child(3)>ul>li>div:first-child{
-    width: 25%;
-}
-#cv>div:nth-child(3)>ul>li>div:last-child{
-    width: 75%;
 }
 #reco{
     display: flex;
