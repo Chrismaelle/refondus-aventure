@@ -122,6 +122,7 @@ html, body{
     display: flex;
     flex-direction: row;
     margin-left: 3%;
+    text-align: justify;
 }
 .far.fa-dot-circle, .fas.fa-circle{
     width: 6%
@@ -145,6 +146,7 @@ html, body{
     flex-direction: row;
     justify-content: space-around;
     margin-left: 3%;
+    text-align: justify;
 }
 #cv>div:nth-child(3)>ul>li h2, li h3{
     margin-top: 0;
