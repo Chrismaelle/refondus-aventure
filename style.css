@@ -249,4 +249,7 @@ html, body{
     .fas.fa-gamepad{
         width: 57px;
     }
+    #cv>section>hr{
+        width: 80%;
+    }
 }
